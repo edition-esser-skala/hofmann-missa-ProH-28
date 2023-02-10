@@ -48,3 +48,49 @@ KyrieViolinoII = {
     b,4 r r\fermata \bar "|." %42 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoGloria
+    f'4\fE f, b8 es32( d c b) b'( a g f es d c b)
+    es8 c, c c c8.\trill b32 c b4
+    b'16\p d32( c) b16 b f'( d c b) a c32( b) a16 a es'( c b a)
+    as d d f f as as f, f8.\trillE es32 f es8 g\f
+    es'4 \tuplet 6/4 4 { es16 g f es d es } c'16. es,32 es8\trill \tuplet 6/4 4 { c'16 b a g f es } %5
+    d8 b,16 d' c g' b, g' a,8 f32( g a b) c8\pE a32( b c d)
+    es!16( d) d( c) c( b) b( a) b d32( c) b16\fE b b g a f
+    a c f a g,8 e' f,4 r
+    f'8.\trill a32 g f16. c32 a16. f32 f8.\trillE e32 f e4
+    g'8.\trillE b32 a g16.-\critnote e32 b16. g32 g8.\trillE f32 g f4 %10
+    a8.\trillE f32 g a16 b b c c4 b8 a
+    \appoggiatura a16 g8 fis16 g a8 g g4\trillE fis
+    g16 g' g d d b b g as as' as f f d d h
+    c c' c g g es es c d d' d d d h d f,
+    es c' c es, es c' d, b' b,8.\trillE a32 b a4 %15
+    <f a f'>8. a16 a8 \once \slurDashed f32( g a b) c8 c \appoggiatura d16 c8 b16 a
+    b4 b r16 es\pE es8\trill r16 d d8\trill
+    r16 g g8\trill r16 c, c8\trill d16 d, fis a d\fE fis a d
+    b g d b c g' b, g' a, c f a b, d f b
+    b, d f b c,8 a' b,4 b %20
+    b a8 a g fis16( g) a8 g
+    g4\trillE fis es'16 fis, fis fis fis fis fis fis
+    g' b, b b a a g g g g g g fis fis fis fis
+    g4 r8 b b4 a8 a
+    a4. a8 a4 g %25
+    g16\pE g g g g g g g as as as as as as as as
+    g g g g g g g g f f f f f f f f
+    f f f f es es es es d4 g\fE
+    es' es8 es \sbOn \tuplet 3/2 8 { es16 f es } c' es, \tuplet 3/2 8 { d es d } b' d, \sbOff
+    b8.\trillE a32 b a4 c8. c16 b8 b %30
+    \sbOn \tuplet 3/2 8 { b16 c b } b' d, \sbOff c8 a' b,4 r
+    d,4. es16 f g8 g f es'16 c
+    c8.\trill b32 c b4 d,4. es16 f
+    g8 g f es'16 c c8.\trillE b32 c b8 d
+    d c g' b, b8.\trillE a32 b a16 f f' a, %35
+    b f c' f, d' b b' d, c f a, c f, c a c
+    f f a f c' a f' c h d, d' h c c, d' d,
+    es' es, g' f es c g' b, a f c' a f' c a f
+    b d f b c,8 a' b,4 r\fermata \bar "|." %39 finis
+  }
+}

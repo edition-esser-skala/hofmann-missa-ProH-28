@@ -7,6 +7,7 @@
 
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoGloria = \tempoMarkup "Allegro non molto"
 
 
 \include "notes/clno1.ly"
