@@ -181,3 +181,169 @@ GloriaBassFigures = \figuremode {
   r4 <6>8 <5-> r2
   <[6]>4 <4>8 <3> r2 %39 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoCredo
+    \mvTr b8\fE-\tuttiE b b b a b b'16 f d b
+    es8 es es e f f, r4
+    r f'8 f b b, as'8. as16
+    g4 c8 b a b f f,
+    b b' \mvTr b,\p-\solo a g g' c, cis %5
+    d d'16 cis d a fis d g, g' fis d g d b g
+    d'4 r r16 g, b d g d b d
+    g,4 r8 c d d d d
+    g, g'16\f fis g8-\tutti g f f f f
+    es es es es es d g g %10
+    f f, f' f f f a a
+    b b, b'16 f d b e8 e e e
+    es es d! es f f16 es f8 f,
+    b b'16 a b f d f b,8. b16 b8 b
+    f f'16 e f c a c f,8 f' a f %15
+    b4 a8 b f f f, f'
+    f f f f es es es es
+    d d g, g c es16 g c c, c' b
+    a8 c16 b a f g a b8 b, b'16 a g f
+    es8 es es es es es d d %20
+    c c f f b, b' b,4
+    r2 r4 r8 d
+    es g f es d c b b \noBreak
+    f' f f, f b4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus g'4 g g \noBreak %25
+    fis4. fis8 fis4
+    fis fis fis
+    g g8 d b d
+    g,4 g' g
+    f! f f %30
+    es4. es8 es4
+    e e e
+    f f f
+    b, b' b
+    a2 a4 %35
+    b4. b8 es, e
+    f4 f f
+    f4. f8 f f
+    es!4 es es-\tasto
+    d2 d4 %40
+    d2 d4
+    d2.
+    d \noBreak
+    g,4 r r\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit b4 d8 f b b a f \noBreak %45
+    b b,16 a b8 b' a f16 a b8 a
+    g g c, c f f f f
+    f f es! es d d b b
+    a a a a b4 b8 es
+    f f16 es f8 f, b b' a g %50
+    fis fis fis fis g g c, cis
+    d d d16 fis a fis d8 d d d
+    c! c c c b b16 a b8 g
+    r4 b\p c b
+    es8 es es es d4 d8\f d %55
+    g, g'16 f es8 es d g d d,
+    g g'16 fis g8 g c, c' a f
+    b b, b'16 f d f b,8 b es e
+    f f, f'16 c a c f,8 f'16 e f8 fis
+    g g, g' f es4 c8 cis %60
+    d d, d'16 c b a g8 g' f! f
+    es es e e f f es es
+    d d d d d d d d
+    es es16 d es g b g es8 es c b
+    a! f b b f' f16 es f8 f, %65
+    b4 r r2
+    r8 b b b b'8. b16 a8 g
+    a a f f f f f f
+    es es es es es es d d
+    d d c c c c b g %70
+    d'4 d r d8 d
+    g16 g, b g d' fis a d d,8 d d d
+    g16 g, b g d' fis a d \mvTr g,8\p-\senzaOrg g f f
+    es es d d c c cis cis
+    d d'16 cis d\f a fis d g8 g, g'16 g b g %75
+    es8 es16 d es8 es f f d b
+    f' f16 es f8 f, b b' f f,
+    b' b, f' f, b4 r\fermata \bar "|." %78 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2 <6 5>
+  <7>8 <6>4 <5>8 \bo <[9] 4> \bc <[8] 3>4.
+  r4 <7>2 <4 2>4
+  <6>2 \bo <[6 5]>4 <5 4>8 \bc <[\t 3]>
+  r2. <8 6>8 <7 5 [_!]> %5
+  <6 4>4 <[5] _+>4. <5 3>8 \bo <[9 4]> \bc <[8 3]>
+  <_+>1
+  r4. <6>8 <6 4>4 <[5] _+>
+  r2 <4! 2>
+  <6> <4 2>8 <6-> <7> <6!> %10
+  r2. <[6] 5->4
+  <9 4> <8 3> <7->2
+  <4 2>4 <6>8 q <6! 4>4 <5 3>
+  r1
+  r2 <7> %15
+  r4 <[6] 5> <6 4> <5 3>
+  <4! _->2 <6>
+  <7 [5-]>4 <7 _!>2.
+  \bo <[6 5]>2 <9 4>4 \bc <[8 3]>
+  r4 <6>8 <5> <4 2>4 <6> %20
+  <7 [4]> <7>2.
+  r2.. <6>8
+  <3> q q q q q q4
+  <4> <3>2.
+  r2. %25
+  <[6]>
+  <7>
+  <9 4>4 <8 3>2
+  r2.
+  <4! _-> %30
+  <6>
+  <7- 5->
+  <4>2 <3>4
+  \bo <[_! _]>2.
+  \bc <[6 5]> %35
+  r2 <8 6>8 <7 5>
+  <[6] 4>4 <5 3>2
+  <4! _->2.
+  <6>
+  r %40
+  r
+  r
+  \bo <[6] 4>4 <5 \t> \bc <[\t] _+>
+  r2.
+  r2. \bo <[6] 5>8 \bc <[\t] \t> %45
+  <9 4> <8 3>4. \bo <[6]>4. \bc q8
+  <7 [4]>4 <7 _!>2.
+  r4 <\t> \bo <[6 _]>2
+  \bc <[6 5]> <9 4>4 <8 3>
+  <6 4> <5 3>2 r8 <5> %50
+  <6>2. <8 6>8 <7 5 [_!]>
+  <6 4>4 <[5] _+> <7 _+>2
+  <6 4\+ _-> <6>
+  r4 <6>2 <[6]>4
+  <7> <6> <_+>2 %55
+  r4 <6> <7 _+> <4>8 <_+>
+  r2. \bo <6! [5]>8 \bc <\t [\t]>
+  <[9] 4>4 <8 3>2 <8 6>8 <7 5>
+  <6 4>4 <5 3>2.
+  r2. <8 6>8 <7 5 [_!]> %60
+  <6 4>4 <[5 _+]>2 <4!>4
+  <6> <5-> <3> <\t>
+  <[6]>2 <5->
+  <9 4->4 <8 3>2.
+  <6 5>2 <4>4 <3> %65
+  r1
+  r2 <10>4 q8 q
+  q4 q <4! 2>2
+  <6> <4 2>4 <6->
+  <4 2> <6> <4\+ 2> <6> %70
+  \bo <[6] 4> \bc <[5] _+>2.
+  r4 <_+>2.
+  r4 <_+>2.
+  r1
+  r4 <[_+]>2. %75
+  <6>4. \bo <[5]> \bc <[6]>4
+  <4> <3>2.
+  r1 %78 finis
+}

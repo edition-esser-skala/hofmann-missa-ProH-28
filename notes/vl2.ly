@@ -94,3 +94,88 @@ GloriaViolinoII = {
     b d f b c,8 a' b,4 r\fermata \bar "|." %39 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoCredo
+    <d b'>4\fE b''16 f d b \appoggiatura { c16[ d] } es8 d r d
+    d16 c h c g'8 b, b a c c
+    f f, es'8. es16 d4 d8 d
+    es16 es, es es' es es, es es' \sbOn \tuplet 3/2 8 { es d c } d b' \sbOff c,8 a'
+    b,4 b,8\p a g g' c, cis %5
+    d d'16 cis d a fis d g, g' fis d g d b g
+    d'4 r r16 g, b d g d b d
+    g,4 r8 c d d d d
+    g, g'16\f fis g16( a32 b c d e fis) g16 d d h h g g g'
+    g es es c c g g g' a, c b f' b b, g' b, %10
+    a f a b-\critnote c f, a c f c a' f c' es, es es
+    es c c d d f, d b b' des8 des des b16
+    \appoggiatura b a8 g16 f b b' c, es d b' b d, c8 a'
+    b,4 r b16( c32 d es f g a) b16. b,32 b16. b32
+    a16( b32 c d e f g) a16. a,32 a16. a32 c16( b32 a g f es d) c16. c'32 c16. c32 %15
+    \appoggiatura c16 b8 a16 b c8 b b8.\trillE a32 b a4
+    \sbOn \tuplet 3/2 8 { h16 c d d es f f g as } as16. h,32 \tuplet 3/2 8 { c16 d es es f g g a h } c16. g,32 \sbOff
+    g4 f8.\trillE es32 f es4 c'
+    c c8 c c8.\trillE b32 c b8 b
+    g' es c b a8. b32 c b8 d'16 b %20
+    f4 es8.\trillE d32 es d4 r8 d,
+    es g f es d c b b'
+    b16 b8 b b b16 b( c32 d es f g a) b16 f d b \noBreak
+    c8 b' c, a' b,4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus g16( b) b( d) d( g) g( b) b( d) d( b)^\critnote \noBreak %25
+    d, a a fis fis d d fis fis a a d
+    es c c a a fis fis a a c es c
+    c a a b b g g d d b b d
+    g, b b d d g g b b d d g
+    as f f d d h h as as f f d %30
+    g' es es c c g g es c es g c
+    des b b g g e e g g b des, des
+    c c c c c c c c c c c c
+    d!4 d'16 b b f f d d b
+    es' c c a a f f c c a a es'' %35
+    d b b f f d f' d c g' g b,
+    b d, d b' a c, c f f a a c
+    h d d f f as as f f d d h
+    c g g es es g g c c es es g
+    fis a a fis fis c c b b g g d %40
+    c es b' b c, es a a b, d g g
+    a, c fis a c es a, c b g fis g
+    g b b d d g g b a,8 fis' \noBreak
+    g,4 r r\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit b16( c32 d es f g a) b16 d, c es d f b f es c f, c' \noBreak %45
+    c8\trill b r d c16 a f' c d f c f
+    c b a b b' g e b a f c b a c f a
+    c, f a c f, a c f b, d f b d,, f b d
+    c, f a c f, a c es \appoggiatura f es8 d16 c d b' g es
+    d b b' d, c8 a' b, d,16 d' c, c' b, b' %50
+    a, d fis a d fis a c b g d b a c b g
+    g b, b g' fis d fis a c a a fis fis a a c
+    es c c es es fis, fis g g( a32 b c d e fis) g16 d b g
+    g,4 r r2
+    r r4 a''16\f fis d a %55
+    b d g b c, es es g fis c b g' a,8 fis'
+    g,16 d b d g, d'' g-\critnote d es c g es c es' f, a
+    c a a b b f d f b, d' b' d, c g' b,^\critnote g'
+    b,8.\trillE a32 b a4 c16 a' a a a c, b a
+    b g' g g g g g g g g, fis g a8 g %60
+    g16 d b' g fis d d' fis, g d b g h' g d' h
+    c g es c g'' b, a g a f c' a f' c a' f
+    b f d b b, d f b as' f d as b, d f as
+    as16. b,32 b8\trill g'16 es b es g g'8 g g g16
+    f32( es d c b a g f) d'16 b' b b b c, b' b f,8 a' %65
+    b, d \sbOn \tuplet 3/2 8 { d16 c d } d, d' \sbOff es es, es es' d d, c' c,
+    d' d, d' c \sbOn b d, \tuplet 3/2 8 { d es d } \sbOff d' d, d d' c c, b' b,
+    c' c, c' b a f f' d h g d' h g' d h g
+    c g es' c g' es c g a f f' f, b f d' b
+    g es es' g, a es c' a fis d d' fis, g b d g %70
+    g d b g fis d' fis a d a fis d fis d a fis
+    g8.\trillE fis32 g fis4 fis8 fis fis fis
+    g8.\trillE fis32 g fis4 g16\pE g g g g g g g
+    g g g g g g g g g g g g g g g g
+    fis d fis a d\fE fis a d b g d b g8 d' %75
+    c16 es es g g c, g' b, a c f a b, d f b
+    c, b' b b c,8 a' b,16 d f b c, f a c
+    d, f b d c,8 a' b,4 r\fermata \bar "|." %78 finis
+  }
+}

@@ -181,3 +181,165 @@ GloriaTenoreLyrics = \lyricmode {
   glo -- ri -- a De -- i Pa -- tris,
   a -- men, a -- men. %39 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr b8\fE^\tuttiE b16 b b8 b c b r b
+    g g g c16 c c8 c r4
+    r c8 c b b16 b b8. b16
+    b4 c8 c c b b a
+    b4 r r2 %5
+    R1*3
+    r4 \mvTr d8\fE^\tuttiE d d d d4
+    es c8 c c^\critnote d16 d b8. b16 %10
+    c4 c8 c16 c c8 c c c16 c
+    c8. b16 b4 b4. b8
+    a b16 c b8 b b4( a)
+    b r b8. b16 b8 b
+    a4^\critnote a c8 c c c %15
+    b([ a16 b] c8) b b4 a
+    as4. as8 g4 g8 g
+    as4 g g c
+    c c8 c c8. b16 b8 b
+    b4 c c d8 b %20
+    b4( a) b r
+    r2 r4 r8 b
+    \once \tieDashed b2~ b8[ c] d d \noBreak
+    c2 b4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus b4 b b \noBreak %25
+    a4. d8 d4
+    es es es8 es
+    d4 d r
+    d2 d4
+    d2 d4 %30
+    c4. c8 c4
+    des des des
+    c2 c4
+    d! b b
+    c2 c4 %35
+    b4. b8 g g
+    f4 f c'
+    d4. d8 d d
+    c4 c r
+    r r d( %40
+    c2) b4
+    a2 b4
+    b( a4.) a8 \noBreak
+    g4 r r\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit b4 b8 a b b c c16 c \noBreak %45
+    c8 b r b c4 b8 c
+    d4( c) c a8 a
+    a4 a8 a b4 b
+    c c8 c c([ b16 a)] b8 b
+    b4( a) b r8 d %50
+    d8. d16 d8 d d8. d16 c8 b
+    b8. a16 a4 a4. a8
+    a4 a g g
+    r2 g4.(\p a8)
+    b4 a8([ g)] a4 d8\f d %55
+    d4 c8 c d d d4
+    d b8 b c c16 c c8 c
+    c8. b16 b4 b8 b g g
+    f4 f f4. a8
+    b b16([ c)] d8 d b4 es8 e %60
+    d4 d d8 d d d16 d
+    c8. c16 c4 c8 c c c
+    b4 b8 b b b b b
+    b4 b b8 b c c
+    c4 b8 d c2 %65
+    b8 d d d es4 d8 c
+    d8. c16 b4 r2
+    r4 r8 c d4 d8 d
+    es4 c8 c c4 d
+    b8 b c c a a g g %70
+    b4 a r d8 d
+    d4 d d8 d d d
+    d4 d d\pE d
+    c( d es e)
+    d d\fE d d8 d %75
+    c4 c8 c c c b d16 d
+    c2 b4 a
+    b a b r\fermata \bar "|." %78 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem, fa --
+  cto -- rem coe -- li et ter -- rae,
+  vi -- si -- bi -- li -- um o -- mni --
+  um et in -- vi -- si -- bi -- li --
+  um.
+
+  Et ex Pa -- tre na -- %9
+  tum an -- te o -- mni -- a sae -- cu -- %10
+  la. De -- um de De -- o, lu -- men de
+  lu -- mi -- ne, De -- um
+  ve -- rum de De -- o ve --
+  ro. Ge -- ni -- tum non
+  fa -- ctum, con -- sub -- stan -- ti -- %15
+  a -- lem Pa -- tri,
+  per quem o -- mni -- a
+  fa -- cta sunt. Qui
+  pro -- pter nos ho -- mi -- nes et
+  pro -- pter no -- stram sa -- %20
+  lu -- tem
+  de --
+  scen -- dit de
+  coe -- lis.
+  Et in -- car -- %25
+  na -- tus est
+  de Spi -- ri -- tu
+  San -- cto
+  ex Ma --
+  ri -- a %30
+  Vir -- gi -- ne,
+  et ho -- mo
+  fa -- ctus
+  est. Cru -- ci --
+  fi -- xus %35
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti -- o Pi --
+  la -- to,
+  pas -- %40
+  sus
+  et se --
+  pul -- tus
+  est.
+  Et re -- sur -- re -- xit ter -- ti -- a %45
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras, et a --
+  scen -- dit in coe -- lum,
+  se -- det ad dex -- te -- ram
+  Pa -- tris. Et %50
+  i -- te -- rum ven -- tu -- rus est cum
+  glo -- ri -- a iu -- di --
+  ca -- re vi -- vos
+  et __
+  mor -- tu -- os, cu -- ius %55
+  re -- gni non e -- rit fi --
+  nis. Et in Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi -- vi -- fi --
+  can -- tem, qui ex
+  Pa -- tre Fi -- li -- o -- que pro -- %60
+  ce -- dit. Qui cum Pa -- tre et
+  Fi -- li -- o si -- mul ad -- o --
+  ra -- tur et con -- glo -- ri -- fi --
+  ca -- tur: qui lo -- cu -- tus
+  est per Pro -- phe -- %65
+  tas. Et u -- nam san -- ctam ca --
+  tho -- li -- cam.
+  Con -- fi -- te -- or
+  u -- num ba -- ptis -- ma
+  in re -- mis -- si -- o -- nem pec -- ca -- %70
+  to -- rum. Et ex --
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem mor -- tu --
+  o --
+  rum, et vi -- tam ven -- %75
+  tu -- ri, ven -- tu -- ri sae -- cu -- li,
+  a -- men, a --
+  men, a -- men. %78 finis
+}
