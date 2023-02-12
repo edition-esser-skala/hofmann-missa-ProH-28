@@ -230,3 +230,63 @@ BenedictusViolinoI = {
     b c, c b' f,8 a' b,4 r\fermata \bar "|." %17 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoAgnus
+    b'16.( d64 c) b16 f f d f d es'16.( g64 f) es16 b b g b g
+    es'16.( g64 f) es16 c c es, c' es, es8 d r4
+    b'16.( d64 c) b16 f f d b' d, c b' a f' g,8 e'
+    f,4 r f'16.( a64 g) f16 c c a c a
+    f'16.( a64 g) f16 c c a c a b16.( c64 b) f'16 as, as b, as' as %5
+    as8 g r4 g'16.( b64 as?) g16 b, b g b g
+    g'16.( b64 a) g16 b, b g fis g b d g b a,8 fis'
+    g,4 r b'16.( d64 c) b16 d, d b d b
+    \bp #-5 #-5 es16.( g64 f) es16 es, es g c es es16.( g64 f) es16 c' c es, d b' \noBreak
+    b d, d d c c b b c4 r\fermata \bar "||" %10
+    \time 3/4 \tempoDona \newSpacingSection
+      b16 f d f b f b d \appoggiatura d c8 b16 a \noBreak
+    b f d f b d f b \appoggiatura f es8 d16 c
+    d b f d b d' b' d, es b' d, b'
+    d, b b c c c a' c, d a' c, a'
+    \once \slurDashed b,( c32 d e f g a) b16 b, a f' g,8 e' %15
+    f, f'4 f8 g,[ e']
+    f,16 c a c f a c f \appoggiatura c b8 a16 g
+    a c, a c f a c f \appoggiatura es! d8 c16 b
+    c es d f f es d es c' es, f es
+    d8 b16 a b8 f d f %20
+    b,16 d f b d b f' d b' as, g f
+    g g' es h c c c, c' \appoggiatura c b8 a16 g
+    a f a c f c a' f c' es, d c
+    d f es d b' f d b c8 a'
+    b,4 r r %25
+    d8.\trillE c32 d es8 es, es8.\trillE d32 es
+    c'8.\trillE b32 c d8 d, d8.\trill c32 d
+    b'8.\trill a32 b c16 \once \slurDashed es32( d) c16 c c b a b
+    b8.\trillE a32 b a8 a16 b b c c d
+    d8 b'4 b b8 %30
+    b d,16 es c d b c a b g a
+    fis d fis a d a fis d b' g d b
+    h' g d h c' g es c d' h g d
+    es' d d c c4 c16 g' b, g'
+    b,8.\trillE a32 b a4 r %35
+    b16 f d f b f b d \appoggiatura d c8 b16 a
+    b f d f b d f b \appoggiatura f es8 d16 c
+    d b f d b d' b' d, es b' d, b'
+    d, b b c c c a' c, d a' c, a'
+    b,( c32 d e f g a) b16 b, a f' g,8 e' %40
+    f, f'4 f8 g,[ e']
+    f,16 c a c f a c f \appoggiatura c b8 a16 g
+    a c, a c f a c f \appoggiatura es! d8 c16 b
+    c es d f f es d es c' es, f es
+    d8 b16 a b8 f d f %45
+    b,16 d f b d b f' d b' as, g f
+    g g' es h c c c, c' \appoggiatura c b8 a16 g
+    a f a c f c a' f c' es, d c
+    d f es d b' f d b c8 a'
+    b,16 f d f b d f b \appoggiatura f es8 d16 c %50
+    d b' b b b d, d b' c,8 a'
+    b,4 r r\fermata \bar "|." %52 finis
+  }
+}

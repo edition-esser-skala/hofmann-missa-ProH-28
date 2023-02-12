@@ -33,12 +33,12 @@ KyrieViolinoII = {
     d8 d16 f b d f b\appoggiatura f es8 d16 c
     d b f d b d' b' d, es b' d, b'
     d, b b c c c a' c, d a' c, a'
-    b,( c32 d e f g a) b16 b, a f' g,8 e' %5
+    b,( c32 d e f g a) b16 b, a f' g,8 e' %30
     f, a4 a8 g[ e']
     f,16 c a c f a c f \appoggiatura a, g8 f16 e
     f c a c f a c f \appoggiatura es! d8 c16 b
     a c b d d c b c es c d c
-    b8 b16 a b8 f d f %10
+    b8 b16 a b8 f d f %35
     b,16 d f b d b f' d b' as, g f
     g g' es h c c c, c' \appoggiatura c b8 a16 g
     a f a c f c a' f c' es, d c
@@ -228,5 +228,65 @@ BenedictusViolinoII = {
     b a16 b c8 c c b r b
     g g g g f f b16 d f b
     b c, c b' f,8 a' b,4 r\fermata \bar "|." %17 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoAgnus
+    d16.( f64 es) d16 d d b d b g'16.( b64 as) g16 g g es g es
+    c'16.( es64 d) c16 c es, c es c c8 b r4
+    d16.( f64 es) d16 d d b b' d, c b' a f' g,8 e'
+    f,4 r a16.( c64 b) a16 a a f a f
+    a16.( c64 b) a16 a a f a f b16.( c64 b) f'16 f, f b, f' f %5
+    f8 es r4 g'16.( b64 as?) g16 b, b g b g
+    g'16.( b64 a) g16 b, b g fis g b d g b a,!8 fis'
+    g,4 r g'16.( b64 a) g16 b, b g b g
+    g16.( es'64 d) c16 c, c es g c c16.( es64 d) c16 es es c b d \noBreak
+    d b b b a a g g a4 r\fermata \bar "||" %10
+    \time 3/4 \tempoDona \newSpacingSection
+      b16 f d f b f b d \appoggiatura f, es8 d16 c
+    d8 d16 f b d f b\appoggiatura f es8 d16 c
+    d b f d b d' b' d, es b' d, b'
+    d, b b c c c a' c, d a' c, a'
+    \once \slurDashed b,( c32 d e f g a) b16 b, a f' g,8 e' %15
+    f, a4 a8 g[ e']
+    f,16 c a c f a c f \appoggiatura a, g8 f16 e
+    f c a c f a c f \appoggiatura es! d8 c16 b
+    a c b d d c b c es c d c
+    b8 b16 a b8 f d f %20
+    b,16 d f b d b f' d b' as, g f
+    g g' es h c c c, c' \appoggiatura c b8 a16 g
+    a f a c f c a' f c' es, d c
+    d f es d b' f d b c8 a'
+    b,4 r r %25
+    b8.\trill a32 b c8 c, c8.\trill b32 c
+    a'8.\trillE g32 a b8 b, b8.\trill a32 b
+    g'8.\trillE fis32 g a16 c32( b) a16 a a16 g fis g
+    g8.\trillE fis32 g fis8 fis16 g g-\critnote a a b
+    b8 d4 d d8 %30
+    d d16 es c d b c a b g a
+    fis d fis a d a fis d b' g d b
+    h' g d h c' g es c d' h g d
+    es' d d c c4 c16 g' b, g'
+    b,8.\trill a32 b a4 r %35
+    b16 f d f b f b d \appoggiatura f, es8 d16 c
+    d8 d16 f b d f b\appoggiatura f es8 d16 c
+    d b f d b d' b' d, es b' d, b'
+    d, b b c c c a' c, d a' c, a'
+    b,( c32 d e f g a) b16 b, a f' g,8 e' %40
+    f, a4 a8 g[ e']
+    f,16 c a c f a c f \appoggiatura a, g8 f16 e
+    f c a c f a c f \appoggiatura es! d8 c16 b
+    a c b d d c b c es c d c
+    b8 b16 a b8 f d f %45
+    b,16 d f b d b f' d b' as, g f
+    g g' es h c c c, c' \appoggiatura c b8 a16 g
+    a f a c f c a' f c' es, d c
+    d f es d b' f d b c8 a'
+    b,16 f d f b d f b \appoggiatura f es8 d16 c %50
+    b d d d d b b d c8 a'
+    b,4 r r\fermata \bar "|." %52 finis
   }
 }

@@ -437,3 +437,118 @@ BenedictusBassoLyrics = \lyricmode {
   san -- na in ex -- cel -- sis, in ex --
   cel -- sis. %17 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr b4.\fE^\tuttiE b8 b4 b8 b
+    a a16 a a8 a b b r4
+    b'4. g8 e f c4
+    f, r f'4. f8
+    es!4 es8 es d d16 d d8 d %5
+    es es r4 es4. es8
+    cis4. cis8 d2
+    g,4 r g'4. g8
+    c,4 c8 c a a16 a a8 b \noBreak
+    f'2 f4 r\fermata \bar "||" %10
+    \time 3/4 \tempoDona \newSpacingSection
+      b8. b16 b8 b es,([ f)] \noBreak
+    b,4 r8 b([ c f)]
+    b,4 b'8. b16 g8 g
+    a4 a^\critnote f(
+    g8) f16([ g)] e8 f c4 %15
+    f r r
+    f8. f16 f8 f b,([ c)]
+    f,4 r8 f'( b,4)
+    f' r8 f([ a f)]
+    b4 r r %20
+    b,8. b16 b8 b d4
+    es r e
+    f r8 a4 a8
+    b8 b f2
+    b,4 r r %25
+    g' c, r
+    f b, r
+    es( c4.) cis8
+    d4 d r
+    r8 g,[ b d g f!] %30
+    es2.
+    d4 d g
+    f!( es) h
+    c4. d8 es e
+    f4 f, r %35
+    b'8. b16 b8 b es,([ f)]
+    b,4 r8 b([ c f)]
+    b,4 b'8. b16 g8 g
+    a4 a^\critnote f(
+    g8) f16([ g)] e8 f c4 %40
+    f r r
+    f8. f16 f8 f b,([ c)]
+    f,4 r8 f'( b,4)
+    f' r8 f([ a f)]
+    b4 r r %45
+    b,8. b16 b8 b d4
+    es r e
+    f r8 a4 a8
+    b8 b f2
+    b,4 r8 b([ c)] f %50
+    b, b' f2
+    b,4 r r\fermata \bar "|." %52 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %5
+  mun -- di: Mi -- se --
+  re -- re no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di: %10
+  Do -- na no -- bis pa --
+  cem, pa --
+  cem, do -- na no -- bis
+  pa -- cem, \xE do --
+  na no -- bis pa -- %15
+  \x cem,
+  do -- na no -- bis pa --
+  cem, \xE no --
+  bis \x pa --
+  cem, %20
+  do -- na no -- bis pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, %25
+  do -- na
+  no -- bis,
+  \xE no -- bis
+  pa -- cem,
+  do -- %30
+  _
+  na \x no --
+  bis pa -- cem,
+  do -- na no -- bis
+  pa -- cem, %35
+  do -- na no -- bis pa --
+  cem, pa --
+  cem, do -- na no -- bis
+  pa -- cem, \xE do --
+  na no -- bis pa -- %40
+  \x cem,
+  do -- na no -- bis pa --
+  cem, \xE no --
+  bis \x pa --
+  cem, %45
+  do -- na no -- bis pa --
+  cem, pa --
+  cem, do --
+  na no -- bis pa --
+  cem, \xE do -- na \x %50
+  no -- bis pa --
+  cem. %52 finis
+}
