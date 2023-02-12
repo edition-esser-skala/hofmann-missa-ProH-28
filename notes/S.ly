@@ -398,12 +398,51 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %20 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    \mvTr b'4.\fE^\tuttiE b8 a b r4
+    d4. d8 c d r d
+    d4 c8 c c4 b8 b
+    b b16 b b8. b16 a4 r
+    f'4. c8 d c r c %5
+    es! d r d c4 c8 b
+    a4 g f r
+    f4. f8 e f r4
+    a4. a8 g a r f
+    es'! es16 es es8 es16 es es8. d16 d8 f %10
+    as, as16 as as8 as16 as as8. g16 g8 b
+    es4. d4 c b8~
+    b b16 b b8 a b4 r8 b
+    b a16([ b)] c8 c c b r d
+    d c16([ d)] es8 es es d r f %15
+    f es16([ d)] c8 b a a b b
+    b4( a) b r\fermata \bar "|." %17 finis
+  }
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %5
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui %10
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, in
+  no -- _ _ _
+  mi -- ne Do -- mi -- ni. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %15
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis. %17 finis
+}
 
 
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

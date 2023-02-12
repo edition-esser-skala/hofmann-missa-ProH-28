@@ -206,3 +206,27 @@ SanctusViolinoI = {
     b,4 r r\fermata \bar "|." %20 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoBenedictus
+    <d b'>4.\fE b16. b'32 a16.( b64 c) b8 r4
+    d4. b,16. d'32 c16.( d64 es) d8 r d
+    d16. es,32 es8\trill c'16 c c, c' c16. d,32 d8\trill b'16 b b, b'
+    b16. c,32 c8\trillE b'16 b c, b' a16. f32 f8\trillE c'16. a32 a8\trillE
+    f'4. c8 d c r c %5
+    es! d r d c8. b'32 g a16 f d b
+    a16. f'32 f8 g, e' f,4 r
+    <f a,>4. c16. f32 e16.( f64 g) f8 r4
+    a4. c,16. a'32 g16.( a64 b) a8 r f
+    es'! c,16. es'32 es8 a,,16. es''32 es8.\trill d32 es d8 f %10
+    as, f16. as32 as8 b,16. as'32 as8.\trillE g32 as g8 b
+    es g,16. es'32 f,16. es'32 d16. f,32 es16. d'32 c16. es,32 d16. c'32 b16. d,32
+    c8 b' c, a' b b, r b'
+    b a16 b c8 c c b r d
+    d c16 d es8 es es d r f %15
+    f es16 d c8 b a a b16 d f b
+    b c, c b' f,8 a' b,4 r\fermata \bar "|." %17 finis
+  }
+}

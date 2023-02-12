@@ -393,3 +393,47 @@ SanctusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %20 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    \mvTr d4.\fE^\tuttiE d8 c d r4
+    b4. b8 a b r b
+    b4 a8 a a4 g8 g
+    g g16 g g8. g16 f4 r
+    a4. a8 b a r a %5
+    c b r b c4 c8 d
+    c4. c8 c4 r
+    a4. a8 g a r4
+    c4. c8 c c r4
+    r8 c c c16 c c8. b16 b4 %10
+    r8 as b b16 b b8. b16 b4
+    r8 c4 b a \once \tieDashed g8~
+    g g16 g f8. f16 f4 r8 f
+    f f f f f f r b
+    b a16([ b)] c8 c c b r b %15
+    b b c c c c d d
+    c2 b4 r\fermata \bar "|." %17 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %5
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus,
+  in no -- mi -- ne Do -- mi -- ni, %10
+  in no -- mi -- ne Do -- mi -- ni,
+  in no -- _ _
+  mi -- ne Do -- mi -- ni. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %15
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis. %17 finis
+}

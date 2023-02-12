@@ -393,3 +393,47 @@ SanctusBassoLyrics = \lyricmode {
   ex -- cel --
   sis. %20 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    \mvTr b4.\fE^\tuttiE b8 f' b, r4
+    b'4. b8 f b, r b'
+    g4 a8 a f4 g8 g
+    es es16 es e8. e16 f4 r
+    f4. f8 b, f' r f %5
+    a, b r g' e4 f8 b,
+    c4. c8 f,4 r
+    f'4. f8 c f, r4
+    f'4. f8 c f, r4
+    r8 c'' a f16 a b8. b,16 b4 %10
+    r8 f' d b16 d es8. es16 es4
+    r8 c' a![ b] g[ a f g]
+    es es16 es f8. f16 b,4 r8 b
+    f' f f f b, b r b
+    f' f f f b b, r d %15
+    es es es es es es d b
+    f'2 b,4 r\fermata \bar "|." %17 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %5
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus,
+  in no -- mi -- ne Do -- mi -- ni, %10
+  in no -- mi -- ne Do -- mi -- ni,
+  in no -- _
+  _ mi -- ne Do -- mi -- ni. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %15
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis. %17 finis
+}

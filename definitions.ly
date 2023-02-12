@@ -13,6 +13,7 @@ tempoCredo = \tempoMarkup "Allegro non troppo"
   tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Andante non molto"
   tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Allegretto"
 
 
 \include "notes/clno1.ly"

@@ -397,3 +397,47 @@ SanctusAltoLyrics = \lyricmode {
   ex -- cel --
   sis. %20 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+    \mvTr f4.\fE^\tuttiE f8 f f r4
+    f4. f8 f f r f
+    es4 es8 es d4 d8 d
+    c c16 c c8. c16 c4 r
+    f4. f8 f f r f %5
+    f f r b^\critnote b4 a8 g
+    f4 e f r
+    c4. c8 c c r4
+    f4. f8 e f r4
+    r8 es f f16 f f8. f16 f4 %10
+    r8 f f f16 f f8. es16 es4
+    r8 g f4 es d
+    c8 c16 c c8. c16 d4 r8
+    d d c16([ d)] es8 es es d r f
+    f f f f f f r f %15
+    g g g g f f f f
+    f2 f4 r\fermata \bar "|." %17 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %5
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus,
+  in no -- mi -- ne Do -- mi -- ni, %10
+  in no -- mi -- ne Do -- mi -- ni,
+  in no -- _ _
+  _ mi -- ne Do -- mi -- ni. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %15
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis. %17 finis
+}
