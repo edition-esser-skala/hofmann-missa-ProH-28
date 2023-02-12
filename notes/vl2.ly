@@ -179,3 +179,30 @@ CredoViolinoII = {
     d, f b d c,8 a' b,4 r\fermata \bar "|." %78 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoSanctus
+    b'8.\fE \tuplet 3/2 16 { c32 b a } b8 f d b
+    b'8.\fE \tuplet 3/2 16 { c32 b a } b8 g es b
+    a16 c' c c c c c c c c c c
+    b d, d d d d d d d d d d
+    c c c c c c c c c c c c %5
+    c f e f f c a c f c a' f
+    \tempoPleni a4 a8 a f f
+    f4 f r
+    b,8 d'4 d d8
+    es, es'4 es c8 %10
+    c b16 d f,8 d'16 b' c,8 a'
+    b,4 r d,
+    d4. c16 d es8 es
+    es4 d b'
+    b4. a16 b c8 c %15
+    c4 b b
+    g4. g8 g g
+    f4 f b16 f d' b
+    g g' f es d f b d, c8 a'
+    b,4 r r\fermata \bar "|." %20 finis
+  }
+}

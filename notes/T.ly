@@ -343,3 +343,53 @@ CredoTenoreLyrics = \lyricmode {
   a -- men, a --
   men, a -- men. %78 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 3/4 \autoBeamOff \tempoSanctus
+    \mvTr d4\fE^\tuttiE d r
+    es es r
+    c2 c4
+    d4. d8 d4
+    c2 c4 %5
+    c8. c16 c4 r
+    \tempoPleni c4 c8 c c b16 a
+    b4 b r
+    b b8 b b b16 b
+    b4 b c~ %10
+    c8 b16 b b4( a)
+    b r d
+    d4. c16([ d)] es8 es
+    es4 d b
+    b4. a16([ b)] c8 c %15
+    c4 b b
+    b4. b8 c c
+    c4 c d
+    c d( c)
+    b r r\fermata \bar "|." %20 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus
+  De -- us %5
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li et
+  ter -- ra,
+  ple -- ni sunt coe -- li et
+  ter -- ra glo -- %10
+  ri -- a tu --
+  a. O --
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex -- %15
+  cel -- sis, o --
+  san -- na in ex --
+  cel -- sis, in
+  ex -- cel --
+  sis. %20 finis
+}
